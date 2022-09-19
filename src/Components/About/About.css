@@ -1,0 +1,41 @@
+.about{
+    display: flex;
+    flex-direction: row;
+    background: var(--primary-color);
+    color: #fff;
+    padding: 5%;
+    border: 5px solid #fff;
+    justify-content: center;
+}
+
+.about-img img{
+    border: 2px solid #fff;
+    width: 500px;
+}
+
+
+
+.about-content{
+    margin: 30px;
+}
+
+@media(max-width: 900px){
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-img img{
+        width: 350px;
+    }
+    .about-content{
+        margin: 10px;
+    }
+}
+
+
+@media(max-width: 1100px){
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+}

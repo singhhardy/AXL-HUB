@@ -1,0 +1,46 @@
+footer{
+    background: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 30px;
+    border: 2px solid #fff;
+}
+
+.icon-container{
+    margin: 20px;
+}
+
+.icon-container a{
+    color: rgb(163, 163, 163);
+    font-size: 30px;
+    padding: 10px;
+}
+
+.icon-container a:hover{
+    color: var(--secondary-color);
+    transition: .3s ease-in-out;
+}
+
+.pages ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.pages ul li a{
+    color: rgb(163, 163, 163);
+    text-decoration: none;
+    padding: 10px;
+}
+
+.pages ul li a:hover{
+    color: #fff;
+    transition: .5s ease;
+}
+
+.copyright{
+    text-align: center;
+}
